@@ -1,0 +1,29 @@
+[project]
+name = "hough-sam"
+version = "0.1.0"
+description = "Modular codebase for Hough-SAM surgical incision segmentation research."
+readme = "README.md"
+authors = [
+  { name = "Research Team" }
+]
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "opencv-python",
+  "opencv-contrib-python",
+  "matplotlib",
+  "torch",
+  "torchvision",
+  "scikit-learn",
+  "Pillow",
+]
+
+[project.optional-dependencies]
+dev = ["black", "pytest"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
