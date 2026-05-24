@@ -1,4 +1,4 @@
-# hough-sam (refactor)
+# HoughSAM: Geometry-Guided Zero-Shot Segmentation of Main Incision in Cataract Surgery Using SAM2 for Skill Assessment
 
 This repository contains code and notebooks for the Hough-SAM project. 
 
